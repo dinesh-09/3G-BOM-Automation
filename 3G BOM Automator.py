@@ -11,7 +11,7 @@ def conv_tim_hr(input_time,str_op=0):
         return(str(input_time//3600)+' hrs ',str(input_time%3600//60)+' mins ',\
                str(input_time%60)+' secs ')
         
-from class_product_new_comp_select_method import *
+from class_product import *
 from Read_File import Read_File  
 import os.path
 import time
